@@ -1,0 +1,6 @@
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\bin\Debug\01.Defining Classes – Part I.exe.config
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\bin\Debug\01.Defining Classes – Part I.exe
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\bin\Debug\01.Defining Classes – Part I.pdb
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\obj\Debug\01.Defining Classes – Part I.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\obj\Debug\01.Defining Classes – Part I.exe
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\1.Defining Classes – Part I - Homework\01.Defining Classes – Part I\obj\Debug\01.Defining Classes – Part I.pdb
