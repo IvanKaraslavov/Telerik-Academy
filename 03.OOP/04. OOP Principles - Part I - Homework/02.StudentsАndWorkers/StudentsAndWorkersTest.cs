@@ -35,16 +35,16 @@
             Console.WriteLine("------- Sorted Workers -------");
 
             List<Worker> workers = new List<Worker>();
-            workers.Add(new Worker("Petur","Petrov", 237M, 8));
-            workers.Add(new Worker("Ivan", "Georgiev", 287M, 7));
-            workers.Add(new Worker("Danail", "Ivanov", 137M, 5));
-            workers.Add(new Worker("Zlatomira", "Usheva", 170M, 4));
-            workers.Add(new Worker("Mariyana", "Petrova", 50M, 2));
-            workers.Add(new Worker("Elena", "Goergieva", 123M, 2));
-            workers.Add(new Worker("Petya", "Koleva", 251M, 4));
-            workers.Add(new Worker("Iveta", "Dinkova", 250M, 7));
-            workers.Add(new Worker("Mariyana", "Koleva", 290M, 9));
-            workers.Add(new Worker("Georgi", "Kurov", 280M, 8));
+            workers.Add(new Worker("Violeta","Violetova", 237M, 8));
+            workers.Add(new Worker("Slavi", "Mitrov", 287M, 7));
+            workers.Add(new Worker("Momchil", "Momchilov", 137M, 5));
+            workers.Add(new Worker("Momchil", "Stepanov", 170M, 4));
+            workers.Add(new Worker("Mariyana", "Gosheva", 50M, 2));
+            workers.Add(new Worker("Spas", "Goergiev", 123M, 2));
+            workers.Add(new Worker("Petya", "Miteva", 251M, 4));
+            workers.Add(new Worker("Ico", "Vasilev", 250M, 7));
+            workers.Add(new Worker("Tencho", "Ivanov", 290M, 9));
+            workers.Add(new Worker("Tanya", "Iordanova", 280M, 8));
 
             var resultWorkers = workers.OrderByDescending(wk => wk.MoneyPerHour());
             Print(resultWorkers);

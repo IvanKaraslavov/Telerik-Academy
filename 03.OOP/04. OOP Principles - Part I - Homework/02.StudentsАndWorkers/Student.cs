@@ -34,8 +34,8 @@
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Worker's first name: {0}\n", this.FirstName);
-            sb.AppendFormat("Worker's last name: {0}\n", this.LastName);
+            sb.AppendFormat("Student's first name: {0}\n", this.FirstName);
+            sb.AppendFormat("Student's last name: {0}\n", this.LastName);
             sb.AppendFormat("Student's marks: {0}\n", string.Join(",", this.Grade));
             return sb.ToString();
         }
