@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link type="text/css" rel="stylesheet" href="./CalculatorStyle/CalculatorStyle.css"/>
+    <script>
+        function c(val) {
+            document.getElementById("d").value = val;
+        }
+        function v(val) {
+            document.getElementById("d").value += val;
+        }
+        function e() {
+            try {
+                c(eval(document.getElementById("d").value))
+            }
+            catch (e) {
+                c('Error')
+            }
+        }
+    </script>
+</head>
+<body>
+    <form><table class="box">
+    <tr>
+        <td colspan="3" class="display"><input type="text" readonly size="18" id="d"></td>
+        <td><input type="button" class="button blue" value="&#8592;" onclick='c("")'></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button blue" value="1" onclick='v("1")'></td>
+        <td><input type="button" class="button blue" value="2" onclick='v("2")'></td>
+        <td><input type="button" class="button blue" value="3" onclick='v("3")'></td>
+        <td><input type="button" class="button blue" value="+" onclick='v("+")'></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button blue" value="4" onclick='v("4")'></td>
+        <td><input type="button" class="button blue" value="5" onclick='v("5")'></td>
+        <td><input type="button" class="button blue" value="6" onclick='v("6")'></td>
+        <td><input type="button" class="button blue" value="-" onclick='v("-")'></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button blue" value="7" onclick='v("7")'></td>
+        <td><input type="button" class="button blue" value="8" onclick='v("8")'></td>
+        <td><input type="button" class="button blue" value="9" onclick='v("9")'></td>
+        <td><input type="button" class="button blue" value="*" onclick='v("*")'></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button blue" value="0" onclick='v("0")'></td>
+        <td><input type="button" class="button blue" value="." onclick='v(".")'></td>
+        <td><input type="button" class="button blue" value="/" onclick='v("/")'></td>
+        <td><input type="button" class="button blue" value="=" onclick='e()'></td>
+    </tr>
+</table>
+    </form>
+</body>
+</html>

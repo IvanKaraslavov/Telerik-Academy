@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <style>
+        form {
+            width: 430px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #000000;
+        }
+
+        #city {
+            width: 100px;
+        }
+
+        #phone {
+            width: 80px;
+        }
+
+        #state, #zip, #aCode, #cCode {
+            width: 55px;
+        }
+
+        #buttons {
+            background-color: #86cdea;
+        }
+
+        table tr > :nth-child(odd) {
+            width: 150px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="1-Registration-form.html" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="lName">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="lName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fName">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city" />
+                    <label for="state">State</label>
+                    <input type="text" id="state" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zip">Zip/Postal Code</label>
+                </td>
+                <td>
+                    <input type="number" id="zip" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="bg">Bulgaria</option>
+                        <option value="jp">Pakistan</option>
+                        <option value="kor">Laplandia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cCode">Phone(country code,</label>
+                    <label for="aCode">area code,</label>
+                    <label for="phone">number)</label>
+                </td>
+                <td>
+                    (+<input type="tel" id="cCode" maxlength="4" />)
+                    <input type="tel" id="aCode" maxlength="5" />
+                    <input type="tel" id="phone" maxlength="8" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" id="email" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthDate">Birth date</label>
+                </td>
+                <td>
+                    <input type="date" id="birthDate" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="spring">Starting date</label>
+                </td>
+                <td>
+                    <label for="spring">Spring 2015</label>
+                    <input type="radio" name="start" id="spring" />
+                    <label for="summer">Summer 2015</label>
+                    <input type="radio" name="start" id="summer" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comments">Comments/Questions</label>
+                </td>
+                <td>
+                    <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="buttons">
+                    <input type="submit" id="submit" value="Submit" />
+                    <input type="reset" id="reset" value="Clean this form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

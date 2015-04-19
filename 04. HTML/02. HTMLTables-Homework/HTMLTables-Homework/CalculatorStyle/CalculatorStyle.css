@@ -1,0 +1,49 @@
+﻿body {
+            background-color: #bbe0ff;
+        }
+
+        .box {
+            background-color: #0f91c3;
+            height: 300px;
+            width: 250px;
+            position: relative;
+            top: 80px;
+            left: 35%;
+        }
+
+        .display {
+            width: 220px;
+            position: relative;
+            height: 10px;
+        }
+
+            .display input {
+                position: relative;
+                height: 95px;
+                width: 310px;
+                background-color: #0f91c3;
+                font-size: 40px;
+                text-align: right;
+                color: white;
+                border:none;
+            }
+
+        .button {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            font-size: 40px;
+        }
+
+            .button.blue {
+                color: white;
+                background-color: #0f91c3;
+                
+            border: 10px;
+            border-color: white;
+            }
+
+        .blue:active {
+            border-top: white 2px solid;
+            border-bottom: 2px #6f6f6f solid;
+        }

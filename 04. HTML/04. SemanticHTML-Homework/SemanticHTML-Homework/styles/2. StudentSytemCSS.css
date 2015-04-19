@@ -1,0 +1,25 @@
+﻿header, nav, section, article, aside, footer, main, hgroup {
+    display: block;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+table td, table tr, table th {
+    padding: 11px;
+    background-color: #f55f2f;
+    color: white;
+    text-align:center;
+    font-size:16px;
+}
+table
+{
+    border-spacing: 0px;
+}
+
+#logo
+{
+    padding-left: 120px;
+    position:fixed;
+}
