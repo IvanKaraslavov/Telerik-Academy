@@ -1,0 +1,5 @@
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\04. OOP Principles - Part I - Homework\02.StudentsАndWorkers\bin\Debug\02.StudentsАndWorkers.exe
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\04. OOP Principles - Part I - Homework\02.StudentsАndWorkers\bin\Debug\02.StudentsАndWorkers.pdb
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\04. OOP Principles - Part I - Homework\02.StudentsАndWorkers\obj\Debug\02.StudentsАndWorkers.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\04. OOP Principles - Part I - Homework\02.StudentsАndWorkers\obj\Debug\02.StudentsАndWorkers.exe
+C:\Users\user\Documents\GitHub\Telerik-Academy\03.OOP\04. OOP Principles - Part I - Homework\02.StudentsАndWorkers\obj\Debug\02.StudentsАndWorkers.pdb

@@ -1,0 +1,42 @@
+﻿namespace StudentsАndWorkers
+{
+    using System;
+
+    public abstract class Human
+    {
+        private string firstName;
+        private string lastName;
+
+        public string FirstName
+        {
+            get
+            {
+                return this.firstName;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException("Enter a name");
+                }
+                this.firstName = value;
+            }
+        }
+
+        public string LastName
+        {
+            get
+            {
+                return this.lastName;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException("Enter a name");
+                }
+                this.lastName = value;
+            }
+        }
+    }
+}
