@@ -1,0 +1,4 @@
+1000 Ivan
+0 Georgi
+13000 Mitko
+50 Tencho
