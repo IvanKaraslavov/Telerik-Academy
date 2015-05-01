@@ -12,7 +12,7 @@ background: -o-linear-gradient(45deg,  #c0d4e2 0%,#d4e7f9 15%,#c2d6e8 22%,#d4e7f
 background: -ms-linear-gradient(45deg,  #c0d4e2 0%,#d4e7f9 15%,#c2d6e8 22%,#d4e7f9 32%,#d4e7f9 41%,#d4e7f9 48%,#c2d6e8 54%,#d4e7f9 59%,#ffffff 80%); /* IE10+ */
 background: linear-gradient(45deg,  #c0d4e2 0%,#d4e7f9 15%,#c2d6e8 22%,#d4e7f9 32%,#d4e7f9 41%,#d4e7f9 48%,#c2d6e8 54%,#d4e7f9 59%,#ffffff 80%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0d4e2', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+padding-bottom: 0.3em;
 }
 nav
 {
@@ -37,10 +37,6 @@ background: -ms-linear-gradient(top,  #ecf3fc 0%,#d9e4f1 53%,#d9e4f1 100%); /* I
 background: linear-gradient(to bottom,  #ecf3fc 0%,#d9e4f1 53%,#d9e4f1 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf3fc', endColorstr='#d9e4f1',GradientType=0 ); /* IE6-9 */
 
-}
-#top-header
-{
-    padding-bottom: 0.3em;
 }
 #window-options
 {
@@ -168,4 +164,9 @@ background: -ms-linear-gradient(top,  #f7fbff 0%,#e8eff6 41%,#f3fcff 100%); /* I
 background: linear-gradient(to bottom,  #f7fbff 0%,#e8eff6 41%,#f3fcff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbff', endColorstr='#f3fcff',GradientType=0 ); /* IE6-9 */
 
+}
+
+.main:hover
+{
+    background: radial-gradient(rgba(251, 225, 131, 0), rgba(251, 225, 131, 1));
 }
