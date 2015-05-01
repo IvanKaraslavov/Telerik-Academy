@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" type="text/css" href="Styles/04. WindowsCalculatorCSS.css" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="content">
+        <header id="top-header">
+            <span id="calc-logo"><img src="image/calculator-logo.png" alt="calculator-logo"></span>
+            <span> Calculator</span>
+            <span id="window-options"><img src="image/window-options.png" alt="window-options"></span>
+        </header>
+        <nav>
+            <ul id="navigation">
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+        <main>
+            <div id="result-container">
+                <span id="result">8854455</span>
+            </div>
+            <table id="bits">
+                <tr>
+                    <td>0000</td>
+                    <td rowspan="2">0000</td>
+                    <td rowspan="2">0000</td>
+                    <td rowspan="2">0000</td>
+                    <td>0000</td>
+                    <td rowspan="2">0000</td>
+                    <td rowspan="2">0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class="digits">63</td>
+                    <td class="digits">47</td>
+                    <td class="digits">32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td rowspan="2">0000</td>
+                    <td rowspan="2">1000</td>
+                    <td rowspan="2">0111</td>
+                    <td>0001</td>
+                    <td rowspan="2">1011</td>
+                    <td rowspan="2">1011</td>
+                    <td>0111</td>
+                </tr>
+                <tr>
+                    <td class="digits">31</td>
+                    <td class="digits">15</td>
+                    <td class="digits">0</td>
+                </tr>
+            </table>
+            <div id="controls-container">
+                <table id="calculations">
+                    <tr>
+                        <td rowspan="3" colspan="2" class="radio-buttons">
+                            <form>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Hex">Hex
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Dec" checked>Dec
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Oct">Oct
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Bin">Bin
+                                </label>
+                            </form>
+                        </td>
+                        <td></td>
+                        <td class="button">Mod</td>
+                        <td>A</td>
+                        <td>MC</td>
+                        <td>MR</td>
+                        <td>MS</td>
+                        <td>M+</td>
+                        <td>M-</td>
+                    </tr>
+                    <tr>
+                        <td class="button">(</td>
+                        <td class="button">)</td>
+                        <td>B</td>
+                        <td class="button"><b>&leftarrow;</b></td>
+                        <td class="button">CE</td>
+                        <td class="button">C</td>
+                        <td class="button">&plusmn;</td>
+                        <td>&Sqrt;</td>
+                    </tr>
+                    <tr>
+                        <td class="button">Ro</td>
+                        <td class="button">RoR</td>
+                        <td>C</td>
+                        <td class="main">7</td>
+                        <td class="main">8</td>
+                        <td class="main">9</td>
+                        <td class="button">&frasl;</td>
+                        <td>&percnt;</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" colspan="2" class="radio-buttons">
+                            <form>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Qword" checked>Qword
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Dword">Dword
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Word">Word
+                                </label>
+                                <label class="block">
+                                    <input type="radio" name="radio-group" value="Byte">Byte
+                                </label>
+                            </form>
+                        </td>
+                        <td class="button">Or</td>
+                        <td class="button">Xor</td>
+                        <td>D</td>
+                        <td class="main">4</td>
+                        <td class="main">5</td>
+                        <td cclass="main">6</td>
+                        <td class="button">&lowast;</td>
+                        <td>1/x</td>
+                    </tr>
+                    <tr>
+                        <td class="button">Lsh</td>
+                        <td class="button">Rsh</td>
+                        <td>E</td>
+                        <td class="main">1</td>
+                        <td class="main">2</td>
+                        <td class="main">3</td>
+                        <td class="button">&minus;</td>
+                        <td rowspan="2" class="button"><b>&equals;</b></td>
+                    </tr>
+                    <tr>
+                        <td class="button">Not</td>
+                        <td class="button">And</td>
+                        <td>F</td>
+                        <td colspan="2" class="main">0</td>
+                        <td>&period;</td>
+                        <td class="button">&plus;</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

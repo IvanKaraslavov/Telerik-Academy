@@ -1,0 +1,43 @@
+﻿body 
+{
+    font-family: Arial;
+    font-size: 18px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul ul li a
+{
+    color: #988888;
+}
+
+ul ul
+{
+    display: none;
+}
+
+ul ul li
+{
+    padding-left: 0;
+}
+
+ul li:hover ul 
+{
+   display: block;
+   position: relative;
+   left: -1.7em;
+}
+
+.list:hover 
+{
+   text-decoration: underline;
+}

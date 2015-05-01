@@ -1,0 +1,77 @@
+﻿body 
+{
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+section
+{
+    margin-left: 2em;
+}
+h2
+{
+    font-weight: 100;
+    font-size: 1.5em;
+}
+article
+{
+    background-color: #ffffff;
+    padding: 15px;
+    overflow: auto;
+    margin: 40px 0 30px 0;
+    border: 1px solid #999999;
+    width: 27em;
+}
+img
+{
+    float: left;
+    border: 1px solid #999999;
+    width: 10.3em;
+    height: 6.5em;
+}
+p
+{
+    font-size: 0.9em;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+#firstParagraph
+{
+    font-size: 1em;
+     margin-bottom: 1em;
+}
+strong
+{
+    color: #3B3B3B;
+}
+#article-content
+{
+    float: right;
+    width: 15em;
+}
+#buttons
+{
+    float: right;
+    display: inline;
+}
+button
+{
+    display: inline-block;
+}
+#listen
+{
+    background-image: url(../images/listenButton.png);
+    padding: 0.35em 1.43em;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    font-weight:100;
+}
+#add
+{
+    background-image: url(../images/addButton.png);
+    padding: 0.35em 1.43em;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}

@@ -1,0 +1,85 @@
+﻿body 
+{
+    font-family: Candara;
+}
+
+nav
+{
+    text-align: center;
+    border-bottom: 1px solid #606060;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 0.5em;
+}
+
+nav a
+{
+    font-family: Arial;
+    font-weight: 900;
+    color: #00ADEF;
+}
+
+section
+{
+    width: 30.3em;
+    margin-left: 19em;
+    border: 1px solid #606060;
+    padding: 0.5em;
+    float: left;
+}
+
+article
+{
+    position: relative;
+    width: 15em;
+    display: inline-block;
+}
+
+.info
+{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    clear: right;
+    padding-top: 0.7em;
+}
+
+.right
+{
+    padding-top: 0.8em;
+}
+
+.left
+{
+    clear: left;
+    padding-top: 0.5em;
+    width: 5em;
+    padding-left: 1em;
+}
+
+#intel
+{
+    float: right;
+}
+
+aside
+{
+    float: left;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 0;
+}
+
+ul li 
+{
+     margin: 40px;
+     font-size: 20px;
+}
+
+input[type="range"] {
+    width: 200px;
+}

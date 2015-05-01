@@ -1,0 +1,110 @@
+﻿body, header
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-size: 14px;
+}
+
+#wrap
+{
+    width: 45rem;
+    padding: 2rem;
+}
+
+header
+{
+    background: linear-gradient(to bottom, #3b3b3b, #2b2b2b);
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.8em;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: inset 0px -9px 19px -6px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px -9px 19px -6px rgba(0,0,0,1);
+    box-shadow: inset 0px -9px 19px -6px rgba(0,0,0,1);
+    width: 43rem;
+}
+
+header img, header input {
+    margin: 0 17px 0 ;
+}
+
+input
+{
+    width: 10em;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    border: none;
+    background: url("../images/goButton.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 25px;
+}
+
+section
+{
+    background-color: #3B3B3B;
+    color: #989898;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section div
+{
+    margin-right: 3em;
+    margin-left: 1em;
+    padding-bottom: 20px;
+}
+
+section h2
+{
+    margin-top: 0;
+    padding-top: 1em;
+    font-size: 2em;
+    color: #F2D91D ;
+    margin-left: 0.5em;
+    font-weight: 100;
+}
+
+section p
+{
+    margin-right: 3em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+#firstParagraph, #secondPara
+{
+    margin-bottom: 0;
+}
+
+#secondPara
+{
+    margin-top: 0;
+}
+
+section a
+{
+    text-decoration: none;
+    color: #989898;
+}
+
+section a:hover
+{
+    text-decoration: underline;
+}
+
+section span
+{
+    color: #ffffff;
+}
