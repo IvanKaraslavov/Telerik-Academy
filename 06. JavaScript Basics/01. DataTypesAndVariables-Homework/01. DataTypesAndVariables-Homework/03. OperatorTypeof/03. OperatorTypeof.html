@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Operator typeof</title>
+    <link href="../Style/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+<script src="../Script/js-console.js"></script>
+<script>
+    //Try typeof on all variables you created.
+
+        var integer = 5;
+        jsConsole.writeLine("Integer Type: " + typeof(integer));
+
+        var double = 8.75;
+        jsConsole.writeLine("Double Type: " + typeof(double));
+
+        var charSymbol = 'a';
+        jsConsole.writeLine("Char Type: " + typeof(charSymbol));
+
+        var string = "Hello World!";
+        jsConsole.writeLine("String Type: " + typeof(string));
+
+        var boolean = true;
+        jsConsole.writeLine("Boolean Type: " + typeof (boolean));
+
+        var integerObject = Number(5);
+        jsConsole.writeLine("Integer object Type: " + typeof (integerObject));
+
+        var array = [[5]];
+        jsConsole.writeLine("Array Type: " + typeof (array));
+
+        var object = { course: 'JS', part: 1 };
+        jsConsole.writeLine("Object: " + typeof (object));
+
+        var func = function () { return; };
+        jsConsole.writeLine("Function: " + typeof (func));
+</script>
+
+</body>
+</html>

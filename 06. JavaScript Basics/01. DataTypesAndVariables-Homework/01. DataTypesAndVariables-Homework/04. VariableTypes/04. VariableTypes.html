@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Variable Types</title>
+    <link href="../Style/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../Script/js-console.js"></script>
+    <script>
+        //Create null, undefined variables and try typeof on them.
+
+        var undefinedTypeExample;
+        jsConsole.writeLine("Undefined Type: " + typeof(undefinedTypeExample));
+
+        var nullableTypeExample = null;
+        jsConsole.writeLine("Null Type: " + typeof(nullableTypeExample));
+
+        var notANumberTypeExample = NaN;
+        jsConsole.writeLine("Not a Number Type: " + typeof(notANumberTypeExample) + "   ||NaN == number?? /Okay.../");
+
+    </script>
+</body>
+</html>

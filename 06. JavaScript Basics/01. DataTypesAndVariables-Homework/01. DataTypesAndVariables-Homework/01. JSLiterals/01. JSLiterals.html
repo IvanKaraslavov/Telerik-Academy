@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JS Literals</title>
+    <link href="../Style/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../Script/js-console.js"></script>
+    <script>
+    //Assign all the possible JavaScript literals to different variables.
+
+        var integer = 5;
+        jsConsole.writeLine("Integer: " + integer);
+
+        var double = 8.75;
+        jsConsole.writeLine("Double: " + double);
+
+        var charSymbol = 'a';
+        jsConsole.writeLine("Char: " + charSymbol);
+
+        var string = "Hello World!";
+        jsConsole.writeLine("String: " + string);
+
+        var boolean = true;
+        jsConsole.writeLine("Boolean: " + boolean);
+
+        var undefinedTypeExample;
+        jsConsole.writeLine("Undefined: " + undefinedTypeExample);
+
+        var nullableTypeExample = null;
+        jsConsole.writeLine("Null: " + nullableTypeExample);
+
+        var notANumberTypeExample = NaN;
+        jsConsole.writeLine("NaN: " + notANumberTypeExample);
+
+        var object = { course: 'JS', part: 1 };
+        jsConsole.writeLine("Object: " + object);
+
+        var func = function () { return; };
+        jsConsole.writeLine("Function: " + func);
+    </script>
+</body>
+</html>
