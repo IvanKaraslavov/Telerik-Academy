@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Strings-Homework", "08. Strings-Homework\08. Strings-Homework.csproj", "{E214C671-734B-44D1-9525-1118B4C4E613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Strings-Homework", "09. Strings-Homework\09. Strings-Homework.csproj", "{E214C671-734B-44D1-9525-1118B4C4E613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
